@@ -1,4 +1,19 @@
- uses a very simple language (YAML, in the form of Ansible Playbooks)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uses a very simple language (YAML, in the form of Ansible Playbooks)
  Ansible works by connecting to your nodes and pushing out small programs, called "Ansible Modules" to them
  Ansible's "authorized_key" module is a great way to use ansible to control what machines can access what hosts. Other options, like kerberos or identity management systems, can also be used.
  By default, Ansible represents what machines it manages using a very simple INI file that puts all of your managed machines in groups of your own choosing.  
